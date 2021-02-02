@@ -1,8 +1,11 @@
 /*
+Girardi Alterini Franco
+ejercicio 1
 Al presionar el  botón, 
 se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
+
 function mostrar()
 {
-	alert("hola, mundo");
+	alert("esto funciona de maravilla");
 }
 
