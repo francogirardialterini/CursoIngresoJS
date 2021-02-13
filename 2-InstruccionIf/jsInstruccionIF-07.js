@@ -1,8 +1,12 @@
+//GIRARDI ALTERINI FRANCO 1H
+
 function mostrar()
-{
-	//tomo la edad  
-	alert("ok");
-	
-
-
-}//FIN DE LA FUNCIÓN
+{	var edad;
+	var estadocivil;
+	edad=txtIdEdad.value;
+	edad=parseInt(edad);
+	estadocivil=estadoCivil.value;
+	if(edad<18 && estadocivil!="Soltero")
+	{alert("es muy pequeño para No ser Soltero");
+	}
+}

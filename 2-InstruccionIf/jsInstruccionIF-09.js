@@ -1,6 +1,5 @@
 function mostrar()
-{
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
-
-}//FIN DE LA FUNCIÓN
+{	var numero;
+	numero=MiBotonUTNnav.value=Math.floor(Math.random() * 11);
+	console.log(numero);
+}
